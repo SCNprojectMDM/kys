@@ -1,0 +1,265 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	background-color: #3d5afe;
+	padding: 0 0;
+	font-size: 1.2em;
+	position: relative;
+	min-height: 55px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a {
+	color: white;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #adadad;
+}
+#home {
+	background: url(./img/background.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}#home2 {
+	background: url(./img/test.jpg) no-repeat center center fixed;
+	display: table;
+	height: 18.1%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+#homeupdate {
+	background: url(./img/white.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+#icon {
+    max-width: 200px;
+    margin: 1% auto;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: 10%;
+	color: #EEE;
+	font-weight: bold;
+}
+.landing-text-login {
+	display: table-cell;
+	text-align: center;
+	vertical-align: 10%;
+	color: #EEE;
+	font-weight: bold;
+	padding-top: 11%;
+}
+.landing-text h1 {
+	font-sizee: 500%;
+	font-weight: 700;
+	color: white;
+	font-family: 'Sofia';font-size: 22px;
+}
+.landing-text h6 {
+	font-weight: bold;
+}
+.landing-text span {
+	font-size: 30px;
+}
+.landing-text span:hover {
+	color: #adadad;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%
+}
+#fixed {
+	background: url(./img/background1.png) no-repeat center center fixed;
+	display: table;
+	height: 75%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer {
+	width: 100%;
+	background-color: #fff;
+	padding: 5% 5% -2% 5%;
+	color: #adadad;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #adadad;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.inloggen {
+	background: url(img/background.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.registreren {
+	background: url(img/background.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.form-controll{
+    display: block;
+    width: 20%;
+    position: relative;
+    left: 39.5%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+@media (max-width: 1150px) {
+	.fa.fa-wrench {
+		font-size: 20px;
+	}
+	.fa.fa-car {
+		font-size: 20px;
+	}
+	.fa.fa-fighter-jet {
+		font-size: 20px;
+	}
+	.fa.fa-code {
+		font-size: 20px;
+	}
+	.fa.fa-eye {
+		font-size: 20px;
+	}
+	.fa.fa-volume-up {
+		font-size: 20px;
+	}
+	.fa.fa-photo {
+		font-size: 20px;
+	}
+	.fa.fa-minus-circle {
+		font-size: 20px;
+	}
+	.fa.fa-users {
+		font-size: 20px;
+	}
+}
+@media (max-width: 853px) {
+	.fa.fa-wrench {
+		font-size: 10px;
+	}
+	.fa.fa-car {
+		font-size: 10px;
+	}
+	.fa.fa-fighter-jet {
+		font-size: 10px;
+	}
+	.fa.fa-code {
+		font-size: 10px;
+	}
+	.fa.fa-eye {
+		font-size: 10px;
+	}
+	.fa.fa-volume-up {
+		font-size: 10px;
+	}
+	.fa.fa-photo {
+		font-size: 10px;
+	}
+	.fa.fa-minus-circle {
+		font-size: 10px;
+	}
+	.fa.fa-users {
+		font-size: 10px;
+	}
+}
+@media (max-width: 620px) {
+	.fa.fa-wrench {
+		font-size: 5px;
+	}
+	.fa.fa-car {
+		font-size: 5px;
+	}
+	.fa.fa-fighter-jet {
+		font-size: 5px;
+	}
+	.fa.fa-code {
+		font-size: 5px;
+	}
+	.fa.fa-eye {
+		font-size: 5px;
+	}
+	.fa.fa-volume-up {
+		font-size: 5px;
+	}
+	.fa.fa-photo {
+		font-size: 5px;
+	}
+	.fa.fa-minus-circle {
+		font-size: 5px;
+	}
+	.fa.fa-users {
+		font-size: 5px;
+	}
+}
+#img_div{
+    width: 15%;
+    height: 30%;
+    padding: 5px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: 2px solid black;
+    background-color: #3d5afe;
+    float: left;
+    border-radius: 1%;
+
+   }
+   #img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+img {
+    width: 100%;
+    height: 100%;
+}
+#img_div img {
+	width: 100%;
+	height: 100%;
+}
